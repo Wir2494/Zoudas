@@ -1,0 +1,54 @@
+.purple{
+  color: #7a91cc;
+}
+.blue-purple{
+  background-color: #5b82e6;
+  color: white;
+}
+
+body {
+  padding-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  border-radius: 0.5em;
+}
+.item-box{
+  /* background-color: white; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+.item-asset-box{
+  padding: 2rem 0;
+}
+.item-image-holder > img{
+  height: 100%;
+  width: 100%;
+  max-width: 200px;
+  max-height: 240px;
+  border-radius: 0.5rem;
+}
+.item-image-description{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.levering{
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.nav-link{
+  float: right;
+  display: inline-block;
+  padding: 1rem 0;
+}
+
