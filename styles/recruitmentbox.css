@@ -1,0 +1,32 @@
+.jumbotron {
+    background-color: #5b82e6;
+    color: #fff;
+}
+.sollicitatie{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.sollicitatie-button{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.btn {
+    background-color: #5b82e6;
+    border-color: #fff;
+}
+.btn:hover {
+    background-color: #5b82e6;
+    color: #000;
+    border-color: #000;
+}
+.sollicitatie-text{
+    font-size: 0.5rem;
+}
+.sollicitatie-beschrijving-hidden{
+    display: none;
+}
+.sollicitatie-beschrijving{
+    display: block;
+}

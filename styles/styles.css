@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .purple{
   color: #7a91cc;
 }
