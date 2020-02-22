@@ -1,3 +1,8 @@
+:root {
+  --main-color: #333333;
+  --logo-primary-color: #FF9B1F;
+  /* --secondary-color:  */
+}
 html {
   scroll-behavior: smooth;
 }
@@ -5,7 +10,7 @@ html {
   color: #7a91cc;
 }
 .blue-purple{
-  background-color: #5b82e6;
+  background-color: var(--main-color);
   color: white;
 }
 
@@ -16,19 +21,64 @@ body {
 
 .navbar {
   margin-bottom: 20px;
+  padding: 3px;
+  background-color: var(--main-color);
+  border-radius: 0;
 }
+.navbar > .container > a {
+  color: white;
+  font-size: 2rem;
+}
+.navbar-brand {
+  position: relative;
+  padding: 0;
+}
+.logo {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
 
+  font-family: "Arima Madurai";
+  font-size: 55px;
+  font-weight: 600;
+  color: var(--logo-primary-color);
+}
+.dot {
+  position: relative;
+  top: 40%;
+  left: 100%;
+  height: 3.5px;
+  width: 3.5px;
+  background-color: var( --logo-primary-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-2{
+  left: 76%;
+}
+.jumbotron {
+  background-color:var(--logo-primary-color);
+  color: white;
+}
+.jumbotron > p {
+  font-size: 1.5rem;
+}
+.jumbotron > p > h4 {
+  color: #000;
+}
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   border-radius: 0.5em;
+  border: 1px solid var(--logo-primary-color);
 }
 .item-box{
   /* background-color: white; */
   margin-left: 1rem;
   margin-right: 1rem;
   display: inline-block;
+  border-right: 1px solid var(--logo-primary-color);
 }
 .item-asset-box{
   padding: 2rem 0;
