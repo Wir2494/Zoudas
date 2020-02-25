@@ -45,8 +45,8 @@ body {
 }
 .dot {
   position: relative;
-  top: 40%;
-  left: 100%;
+  top: 38%;
+  left: 118%;
   height: 3.5px;
   width: 3.5px;
   background-color: var( --logo-primary-color);
@@ -54,7 +54,7 @@ body {
   display: inline-block;
 }
 .dot-2{
-  left: 76%;
+  left: 90%;
 }
 .jumbotron {
   background-color:var(--logo-primary-color);
